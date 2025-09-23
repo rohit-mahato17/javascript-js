@@ -1,9 +1,8 @@
 // "use strict";
-
 // console.log(3+3);
 
 console.log("rohit");
-
+standalone 
 let name = "rohit";
 let age = 34;
 let isLoggedIn = false;
@@ -12,7 +11,7 @@ let isLoggedIn = false;
 //bigint
 //srting
 //boolean => True/False
-//null => standalone value
+//null => value
 //undegine => null
 //symbol => unique for sumbol
 //object
