@@ -36,7 +36,11 @@
 
 const array=[1,2,3,4,5];
 
-array.push(6,7,8,9);
-array.pop;
+// array.push(6,7,8,9);
+// array.pop();
+// console.log(array);
 
+
+array.unshift(9);  //add value on start
+array.shift();     //remove the value
 console.log(array);
