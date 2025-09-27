@@ -44,21 +44,54 @@
 // fortuner.setBrand("l car"); 
 
 //constructor
-class carshowroom{
-   constructor(brand){
-      console.log("create new object");
-      this.brand = brand;
-      // console.log(brand);
+// class carshowroom{
+//    constructor(brand,mileage){
+//       console.log("create new object");
+//       this.brand = brand;
+//       this.mileage =mileage;
+//    }
+
+//      start() {
+//        console.log("start");
+//     }
+//     stop(){
+//        console.log("stop");
+//     }
+
+
+// }
+// let fortuner = new carshowroom("fortuner",10);
+//    console.log(fortuner);
+// let lexus = new carshowroom("fo",12); 
+
+//inheritance 
+
+// class parents {
+//    hello() {
+//       console.log("hello");
+//    }
+// }
+
+// class child extends parent {
+
+// }
+
+class Person {
+   eat(){
+      console.log("eat");
    }
-
-     start() {
-       console.log("start");
-    }
-    stop(){
-       console.log("stop");
-    }
-
-
+   sleep(){
+      console.log("sleep");
+   }
 }
-let fortuner = new carshowroom("fortuner");
-let lexus = new carshowroom();
+
+class Engineer extends Person{
+   work (){
+      console.log("solve problem, puild some thing");
+   }
+}
+
+let calltof = new Engineer();
+   calltof.work();
+   calltof.sleep();
+   calltof.eat();
